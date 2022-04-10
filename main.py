@@ -21,5 +21,6 @@ if __name__ == '__main__':
         screen.fill('black')
         level.run()  # draw a level
 
+
         pygame.display.update()
         clock.tick(60)  # set fps
