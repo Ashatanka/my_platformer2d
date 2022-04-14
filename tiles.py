@@ -5,8 +5,8 @@ class Tile(pygame.sprite.Sprite):
     def __init__(self, pos, size):
         super().__init__()
         self.image = pygame.Surface((size, size))
-        self.image.fill('grey')
-        self.rect = self.image.get_rect(topleft = pos)
+        self.image.fill("grey")
+        self.rect = self.image.get_rect(topleft=pos)
 
     # tiles will move instead of player
     def update(self, x_shift):
